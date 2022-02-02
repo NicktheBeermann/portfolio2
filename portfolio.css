@@ -7,37 +7,66 @@ body{
     margin: 0;
     background-color: cadetblue;
     padding: 15px 20px;
+    max-width: 1000px;
 }
 .navbar{
-    display: flex;
+    display:flex ;
+    align-content: space-between;
+    flex-direction: column;
     background-color: #656;
+    max-width: 120px;
+    overflow-x: hidden;
+    z-index: 1;
 }
 .navbar a{
-    color: cornsilk;
+    display:flex;
+    color: white;
     padding: 15px 20px;
     text-align: center;
 }
 .navbar a:hover{
-    background-color: darkgreen;
-    color: darksalmon;
+    background-color: #f2f2f7;
+    color: black;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+    display:flex ;
+    justify-content: center ;
+    align-items: baseline;
 }
-.side{
-    flex: 20% ;
-    background-color: #f2f2f7;
-    padding: 15px;
     
-}
 .main{
     flex: 80%;
-    background-color: white;
+    background-color: cadetblue;
     padding: 20px;
-    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.mainC{
+    flex: 80%;
+    background-color: cadetblue;
+    padding: 20px;
+    display: flex;
 }
 .image{
     justify-content:flex-end ;
-    padding: 20px
+    padding: 20px;
+    box-shadow: 5px 5px grey
+}
+.imageA{
+    margin-left: 140px;
+    display:flex ;
+    justify-content: center ;
+    align-items: baseline;
+    padding: 20px;
+    box-shadow: 5px 5px grey
+}
+table{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
 }
